@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(116, 203, 224);
+    font-family: 'Noto Sans';
+    background-image: url(../images/16okean.jpg);
+    background-size: cover;
+}
+p{
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    margin: 0 20px;
+}
+h1{
+    font-size: 40px;
+    color: rgba(6, 15, 15, 0.884);
+    text-align: center;
+}
+.coast{
+    width: 1280px;
+    margin: 0 -20px;
+}
+#second-title{
+    color: rgb(8, 0, 73);
+    font-size: 30px;
+    text-align: center;
+}
+header{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header a{
+    background-color: rgba(8, 37, 131, 0.842);
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 35px ;
+}
+table{
+    border-collapse: collapse;
+    font-size: 25px;
+    margin: 0 auto;
+}
+table, table td{
+    border: 2px solid black;
+}
+.layout{
+    width: 1280px;
+    margin: 90px auto;
+    background-color: #fff;
+}
+.zgl{
+    color: rgb(21, 32, 177);
+}
+.first{
+    text-align: center;
+}
+.header_fix{
+    position: fixed;
+}
+.resorts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 40px auto;
+    width: 1280px;
+}
+.resorts__post{
+    width: 100%;
+}
+.resorts__photo img{
+    width: 100%;
+    border-radius: 15px;
+}
+.resorts__like img{
+    width: 40px;   
+}
+.resorts__title{
+    display: grid;
+    grid-template-columns: 300px 30px 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(8, 37, 131, 0.842);
+    color: #fff;
+    border-radius: 15px;
+}
